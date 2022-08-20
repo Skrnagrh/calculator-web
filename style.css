@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+    transition: all 0.5s ease;
+}
+body{
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+body{
+    background-image: linear-gradient(to top right, #EFEAD8, #6D8B74,  #5F7161);
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+}
+.calculator{
+    position: relative;
+    height: auto;
+    width: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px #000000;
+}
+#display{
+    margin: 0 10px;
+    height: 150px;
+    width: auto;
+    max-width: 270px;
+    display: flex;
+    color: #ffffff;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-size: 30px;
+    margin-bottom: 20px;
+    overflow-x: scroll;
+}
+#display::-webkit-scrollbar{
+    display: block;
+    height: 3px;
+}
+button{
+    height: 60px;
+    width: 60px;
+    border: 0;
+    color: #3B5249;
+    border-radius: 20px;
+    margin: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 200ms ease;
+    box-shadow: 0 0 10px #3B5249;
+}
+button::hover{
+    transform: scale(1.1);
+}
+button#equal{
+    height: 130px;
+    background: #3B5249;
+    color: #FFF;
+    box-shadow: 0 0 10px #3B5249;
+}
+button.operator{
+    background: #3B5249;
+    color: #FFF;
+    box-shadow: 0 0 10px #3B5249;
+}
