@@ -27,7 +27,7 @@ Selamat datang di Calculator Web! Ini adalah aplikasi kalkulator sederhana yang 
 
 Di bawah ini adalah tangkapan layar dari tampilan aplikasi kalkulator:
 
-| <img src="https://github.com/Skrnagrh/calculator.github.io/raw/main/img/1.PNG" alt="Tampilan 1" width="50%"> | <img src="https://github.com/Skrnagrh/calculator.github.io/raw/main/img/2.PNG" alt="Tampilan 2" width="50%"> | <img src="https://github.com/Skrnagrh/calculator.github.io/raw/main/img/3.PNG" alt="Tampilan 3" width="50%"> |
+| <img src="https://github.com/Skrnagrh/calculator.github.io/raw/main/img/1.PNG" alt="Tampilan 1" width="70%"> | <img src="https://github.com/Skrnagrh/calculator.github.io/raw/main/img/2.PNG" alt="Tampilan 2" width="70%"> | <img src="https://github.com/Skrnagrh/calculator.github.io/raw/main/img/3.PNG" alt="Tampilan 3" width="70%"> |
 |:---:|:---:|:---:|
 | Tampilan Smartphone. | Tampilan Tablet. |  Tampilan Laptop. |
 
