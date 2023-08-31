@@ -1,27 +1,32 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     outline: 0;
     transition: all 0.5s ease;
 }
-body{
+
+body {
     font-family: sans-serif;
 }
-a{
+
+a {
     text-decoration: none;
     color: #ffffff;
 }
-body{
-    background-image: linear-gradient(to top right, #EFEAD8, #6D8B74,  #5F7161);
+
+body {
+    background-image: linear-gradient(to top right, #EFEAD8, #6D8B74, #5F7161);
 }
-.container{
+
+.container {
     height: 100vh;
     width: 100vw;
     display: grid;
     place-items: center;
 }
-.calculator{
+
+.calculator {
     position: relative;
     height: auto;
     width: auto;
@@ -29,7 +34,8 @@ body{
     border-radius: 10px;
     box-shadow: 0 0 30px #000000;
 }
-#display{
+
+#display {
     margin: 0 10px;
     height: 150px;
     width: auto;
@@ -42,11 +48,21 @@ body{
     margin-bottom: 20px;
     overflow-x: scroll;
 }
-#display::-webkit-scrollbar{
-    display: block;
-    height: 3px;
+
+#display::-webkit-scrollbar {
+    width: 8px;
 }
-button{
+
+#display::-webkit-scrollbar-thumb {
+    background: #3B5249;
+    border-radius: 4px;
+}
+
+#display::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+button {
     height: 60px;
     width: 60px;
     border: 0;
@@ -57,18 +73,25 @@ button{
     cursor: pointer;
     transition: all 200ms ease;
     box-shadow: 0 0 10px #3B5249;
+    outline: none; /* Menghilangkan outline pada tombol */
 }
-button::hover{
+
+button:hover {
     transform: scale(1.1);
+    background-color: #5F7161;
+    color: white;
 }
-button#equal{
+
+button#equal {
     height: 130px;
     background: #3B5249;
     color: #FFF;
     box-shadow: 0 0 10px #3B5249;
 }
-button.operator{
+
+button.operator {
     background: #3B5249;
     color: #FFF;
     box-shadow: 0 0 10px #3B5249;
 }
+
